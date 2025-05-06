@@ -1,0 +1,64 @@
+@import "tailwindcss";
+  
+
+.m{
+    margin-top: 15px !important;
+}
+.h1{
+    font-size: 50px !important;
+    
+}
+.back {
+    background: #ebc2f0;
+    background: linear-gradient(90deg,rgba(235, 194, 240, 1) 0%, rgba(191, 220, 227, 1) 100%);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+@layer base {
+
+    @font-face {
+        font-family: 'meri';
+        src: url('../font/meri.ttf') format('truetype');
+    }
+
+    .font-meri {
+        font-family: 'meri', sans-serif;
+    }
+}
+
+
+
+@theme {
+    --color-yasi:#ECD1F0  ;
+    --color-yasi1: #9E54A8;
+    --color-abi: #D2F5FC;
+    --color-abi1: #B3EAF5;
+}
+
+@layer components {
+    .btn {
+        @apply border-2 flex font-bold py-2 px-4 mr-3 rounded-[30px] w-[200px] h-[50px] justify-center items-center;
+    }
+
+    .center {
+        @apply flex justify-center items-center;
+    }
+    .flx{
+        @apply flex flex-wrap;
+    }
+    
+    .swiper {
+        @apply w-[90%] h-[500px];
+      }
+  
+      .swiper-slide {
+        @apply flex text-center text-[18px] bg-white flex justify-center items-center;
+      }
+  
+      .img {
+        @apply block w-full h-full object-cover object-top ;
+      }
+}

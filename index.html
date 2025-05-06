@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/output.css">
+  <link rel="stylesheet" href="assets/fontello/css/fontello.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="back w-full">
+  <main class="w-[95%] mx-auto bg-white 2xl:container mt-[50px] font-meri overflow-hidden relative">
+
+    <header id="header" class="w-[95%] h-[70px] 2xl:container flex justify-between border-b border-gray-100 fixed top-[50px] mx-auto left-0 right-0 z-10  bg-white overflow-hidden">
+      <figure class="w-[13%] sm:w-[10%] md:w-[7%] lg:w-[6%] xl:w-[5%] md:ml-7 flex items-center">
+        <img class="w-full h-full object-contain" src="assets/img/logo.png" alt="">
+      </figure>
+      <div onclick="myMenu()" class="icon-menu lg:hidden m-4 text-3xl cursor-pointer"></div>
+      <ul id="menu" class="w-[300px] h-[720px] lg:hidden fixed top-[120px] right-[-100%] z-10 duration-1000 bg-yasi p-20 gap-10 *:h-[100px]">
+        <li><span class="pr-3">1.</span><a class="font-bold text-[20px] hover:underline" href="#"> Home</a></li>
+        <li><span class="pr-3">2.</span><a class="font-bold text-[20px] hover:underline" href="#about"> About Me</a>
+        </li>
+        <li><span class="pr-3">3.</span><a class="font-bold text-[20px] hover:underline" href="#pro"> Projects</a></li>
+        <li><span class="pr-3">4.</span><a class="font-bold text-[20px] hover:underline" href="#contact"> Contact</a>
+        </li>
+      </ul>
+      <ul
+        class="hidden lg:flex lg:gap-16 lg:w-[60%] xl:w-[50%] h-full items-center *:font-bold *:text-[19px] *:w-1/4 *:hover:underline">
+        <li><a class="duration-1000" href="#">Home</a></li>
+        <li><a class="duration-1000" href="#about">About Me</a></li>
+        <li><a class="duration-1000" href="#pro">Projects</a></li>
+        <li><a class="duration-1000" href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <div class="w-[90%] mx-auto flex mt-28  border-4 pt-20 border-gray-200">
+      <div class="w-1/2 p-5 md:p-20 lg:p-32">
+        <p class="text-[50px]">HEY !</p>
+        <h1 class="h1 font-bold">I'm Helia Rezaei.</h1>
+        <h2 class="text-[37px] text-gray-600 mb-14">Front End Developer</h2>
+        <nav class="*:text-2xl flex gap-5 *:hover:text-gray-500">
+          <a href="http://milto:h.rezaie2479@gmail.com" target="_blank"><span class="icon-mail"></span></a>
+          <a href="http://linkdin.com/in/helia-rezaie-web" target="_blank"><span class="icon-linkedin"></span></a>
+          <a href="http://www.instagram.com/helia.web" target="_blank"><span class="icon-instagram"></span></a>
+          <a href="https://github.com/Helia-rz79" target="_blank"><span class="icon-github-circled-alt2"></span></a>
+        </nav>
+      </div>
+      <div class="w-1/2 relative flex overflow-hidden">
+        <span
+          class="flex w-[150px] h-[150px] lg:w-[370px] lg:h-[370px] rounded-[50%] bg-yasi mx-auto mt-24 absolute top-2 sm:left-[20%]  md:top-10 lg:left-1/5"></span>
+        <span
+          class="flex w-[50px] h-[50px] lg:w-[50px] lg:h-[50px] rounded-[50%] bg-abi absolute top-[80%] sm:top-80 left-[75%]"></span>
+        <span
+          class="flex w-[40px] h-[40px] lg:w-[40px] lg:h-[40px] rounded-xl bg-abi1 absolute left-[25%] top-32 rotate-12"></span>
+        <span
+          class="flex w-[0px] h-[20px] lg:w-[20px] lg:h-[20px] rounded-xl bg-yasi1 absolute left-[20%] top-[80%]"></span>
+        <span class="flex w-[0px] h-[20px] lg:w-[20px] lg:h-[20px]  bg-gray-400 absolute left-[19%] top-[45%]"></span>
+        <figure class="w-full h-full bottom-0 sm:left-[20%] sm:w-2/3  md:1/2  lg:w-3/5 xl:w-1/2 absolute lg:left-1/4">
+          <img class="w-full object-contain" src="assets/img/1.png" alt="">
+        </figure>
+      </div>
+    </div>
+    <div id="about" class="mt-10"></div>
+    <section  class="mt-40 w-[90%] border-4 border-yasi mx-auto p-10">
+      <h4 class="text-3xl font-bold"><span class="text-yasi1 mr-2 text-2xl">◆</span>About Me</h4>
+      <p class="text-xl mt-5 pl-5">Hello! My name is Helia Rezaei, and I enjoy creating things for the web. Over the
+        past few months, I have developed a strong interest in frontend development, and I’m eager to continue learning
+        and growing in this field. User experience, performance, and quality are at the heart of my development process.
+      </p>
+      <nav class="mt-7 text-xl mb-2 w-full pl-5">Here are a few technologies I’ve been working with recently :
+        <ul class="flx mt-5 p-5 w-full">
+          <div class="w-full md:w-1/3">
+            <li class="flex text-yasi1 pb-5">●
+              <img class="flex w-[40px] h-[40px] mx-2" src="assets/img/html.png" alt="">
+              <h6 class="text-black">HTML</h6>
+            </li>
+            <li class="flex text-yasi1 pb-5">●
+              <img class="flex w-[40px] h-[40px] mx-2" src="assets/img/css.png" alt="">
+              <h6 class="text-black">CSS</h6>
+            </li>
+            <li class="flex text-yasi1">●
+              <img class="flex w-[40px] h-[40px] mx-2" src="assets/img/bootstrap.png" alt="">
+              <h6 class="text-black">BOOTSTRAp</h6>
+            </li>
+          </div>
+          <div class="w-full md:w-1/3 mt-5 md:mt-0">
+            <li class="flex text-yasi1 pb-5">●
+              <img class="flex w-[40px] h-[40px] mx-2" src="assets/img/tailwind.png" alt="">
+              <h6 class="text-black">TAILWINDCSS</h6>
+            </li>
+            <li class="flex text-yasi1 pb-5">●
+              <img class="flex w-[40px] h-[40px] mx-2" src="assets/img/js.png" alt="">
+              <h6 class="text-black">JAVASCRIPT</h6>
+            </li>
+            <li class="flex text-yasi1">●
+              <img class="flex w-[40px] h-[40px] mx-2" src="assets/img/react.png" alt="">
+              <h6 class="text-black">REACT & NEXT</h6>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <div id="pro" class="mt-16"></div>
+    <section class="mt-40 w-[90%] border-4 border-abi mx-auto p-10 ">
+      <h4 class="text-3xl font-bold"><span class="text-abi1 mr-2 text-2xl">◆</span>My projects</h4>
+      <p class="mt-5 pl-5 text-xl">These are some of my projects. You can view all of my projects on my <a
+          class="text-blue-700 font-bold" href="https://github.com/Helia-rz79">GitHub</a> page.</p>
+      <div class="swiper mySwiper my-10">
+        <div class="swiper-wrapper">
+          <a href="https://github.com/Helia-rz79/parallax2" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/15.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/parallax1" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/14.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/hotel-darvishi" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/17.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/HubKids" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/16.png" alt="">
+          </a>
+
+          <a href="https://github.com/Helia-rz79/dinosaur-game" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/19.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/music-player" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/20.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/card-bank" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/21.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/sushi" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/10.png" alt="">
+          </a>
+          <a href="https://github.com/Helia-rz79/api-search" target="_blank" class="swiper-slide">
+            <img class="img" src="assets/img/26.png" alt="">
+          </a>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <div id="contact"></div>
+    <section class="mt-32 w-[90%] mx-auto p-10 border-4 border-gray-200">
+      <h4 class="text-3xl font-bold"><span class="text-gray-500 mr-2 text-2xl">◆</span>Contact Me</h4>
+      <p class="mt-5 pl-5 text-xl">I’m always eager to explore new opportunities and collaborate on exciting
+        projects.<br> If you have an idea or just want to connect , I’d be happy to receive a message from you.</p>
+      <form action="https://formspree.io/f/h.rezaie2479@gmail.com" method="POST" id="form"
+        class="w-[60%] mx-auto flx gap-6 mt-14 *:flex  *:rounded-2xl ">
+
+        <input id="name" class="h-[70px] w-full pl-3 border-2" type="text" placeholder="YOUR NAME...">
+
+        <input id="email" class="h-[70px] w-full pl-3 border-2" type="email" placeholder="YOUR EMAIL...">
+
+        <textarea id="message" class="h-[100px] w-full pl-3 pt-3 border-2" placeholder="YOUR MESSAGE..." name=""
+          id=""></textarea>
+
+        <span id="eror" class="text-red-500 block w-full pl-2"></span>
+
+        <button id="send" class="btn border-2 cursor-pointer bg-black text-white hover:bg-white hover:text-black"
+          type="submit">SEND MESSAGE</button>
+
+      </form>
+    </section>
+
+    <br><br><br><br><br>
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
+  ///////////////////////
+
+  const btn = document.getElementById('send')
+  const eror = document.getElementById('eror')
+  const form = document.getElementById('form')
+
+  let error = ""
+
+  btn.addEventListener("click", (e) => {
+    event.preventDefault(); // جلوگیری از ارسال فرم خودکار
+
+
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+
+    // iHateRegex
+    const nameRegex = /^[a-zA-Z\s]{2,50}$/;
+    const emailRegex = /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/;
+
+
+    let errors = [];
+
+    // چک کن خالی بودن
+    if (!name || !email || !message) {
+      errors.push("Please fill out all fields.");
+    }
+
+    // چک کن فرمت اسم یا ایمیل
+    if (name && !nameRegex.test(name)) {
+      errors.push("Name is invalid.");
+    }
+    if (email && !emailRegex.test(email)) {
+      errors.push("Email is invalid.");
+    }
+
+    if (errors.length > 0) {
+      eror.textContent = errors[0]; 
+    } else {
+      eror.textContent = ""; 
+      form.submit();
+    }
+  });
+  //////////
+
+  const menu = document.querySelector('#menu')
+  let flag = 1
+
+  function myMenu() {
+    if (flag % 2) {
+      menu.style.right = '0'
+    } else {
+      menu.style.right = '-100%'
+    }
+    flag++
+  }
+
+  /////////////
+
+  const header = document.getElementById('header');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 30) {
+      header.style.top = '0px';
+      menu.style.top = '70px'; 
+    } else {
+      header.style.top = '50px'; 
+      menu.style.top = '120px';
+    }
+  });
+
+
+</script>
+
+</html>
