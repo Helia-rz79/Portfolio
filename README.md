@@ -9,8 +9,6 @@
 
 -🙍 Developed by Helia Rezaie
 
--🗓️ Created - 2025-04-28
-
 -📱 Technologies Used - Html , css , tailwind , js .
 
 - Role - Frontend
