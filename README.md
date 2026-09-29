@@ -1,6 +1,7 @@
 # Portfolio
 
-![29](https://github.com/user-attachments/assets/57e204bf-af5b-42a3-8b2a-28903f37e30e)
+<img width="1708" height="691" alt="image" src="https://github.com/user-attachments/assets/723428a0-4352-4fcc-92c7-f95ea7ced63c" />
+
 
 
 
